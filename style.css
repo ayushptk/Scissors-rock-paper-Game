@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #081b31;
+}
+h1{
+    background-color: #081b31;
+    color: aliceblue;
+    height:4rem;
+text-align: center;
+line-height: 4rem;
+/* jati height diyo teti line height diyo vane middle ma aauxa text */
+
+}
+.choice{
+    width: 200px;
+    height: 400px;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    width: 150px;
+    height: 200px;  
+    object-fit: cover;
+    border-radius: 15%;
+
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    height: px;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:5rem;
+    color: white;
+    margin-bottom: 10px;
+
+}
+#user-score,#comp-score{
+    font-size: 5rem;
+}
+#comp-score{
+    margin-left:40px;
+}
+/* #comp{
+    padding: 4px;
+    text-align: center;
+    align-items: center;
+} */
+
+#msg{
+    /* justify-content: center;
+    align-items: center; */
+    background-color: black;
+    display: inline-block;
+    /* jati chaiyo teti matra block allocate garxa */
+    color: white;
+    margin-left: 550px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 20px;
+
+    
+}
